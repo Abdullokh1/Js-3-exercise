@@ -1,4 +1,3 @@
-
 // PROBLEM 6 
 
 // let a = +prompt('a: ');
@@ -39,7 +38,7 @@
 
 // if (a == b && a == c){
 //   console.log('Teng tomonli');
-  
+
 // } else if (a != b && a != c && b != a && b != c && c != a && c != b){
 //   console.log('Turli tomonli');
 
@@ -123,5 +122,57 @@
 // console.log(sum);
 
 
+// PROBLEM 14
+
+// let n = 7;
+// let a = 0;
+// let b = 1;
+// let c = 0;
+
+// for (let i = 1; i <= n -2; i++){
+//   c = a+b;
+//   a = b;
+//   b = c;
+// }
+// console.log(c);
+
+// Problem #15 
+
+// let n = 211221122111;
+// let a = 0;
+// let b = 0;
+
+// while (n){
+//   let num = n % 10;
+//   n /=10;
+//   n = Math.floor(n)
+//   if (num == 1){
+//     a++;
+//   } else{
+//     b++;
+//   }
+// }
+// if (a < b){
+//   console.log(a);
+// } else {
+//   console.log(b);
+// }
+
+// PROBLEM 16
+
+// let n = 4549;
+// let count = 0;
+// let a;
+
+// while (n){
+//   a = n % 10;
+//   n /= 10;
+//   n = Math.floor(n)
+
+//   if (a > count){
+//     count = a;
+//   }
+// }
+// console.log(count);
 
 
